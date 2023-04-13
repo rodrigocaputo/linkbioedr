@@ -24,12 +24,9 @@ body {
 }
 
 .circle-shape {
-	width: 140px;
-	height: 140px;
+	width: 100%;
 	position: relative;
 	overflow: hidden;
-	border-radius: 50%;
-	border: 3px solid var(--lightest-color);
 	margin: 0 auto;
 }
 
@@ -37,7 +34,7 @@ body {
 	display: inline;
 	margin: 0 auto;
 	height: 100%;
-	width: auto;
+	width: 100%;
 }
 
 a {
