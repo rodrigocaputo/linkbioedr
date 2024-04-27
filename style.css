@@ -9,7 +9,8 @@
 }
 
 body {
-	background: var(--darkest-color);
+	background-image: url("http://escoladerobo.com/images/bg_quadro.png");
+	background-size: cover;
 	color: var(--lightest-color);
 	font-family: 'Roboto', sans-serif;
 }
@@ -32,9 +33,9 @@ body {
 
 .profile-pic {
 	display: inline;
-	margin: 0 auto;
+	margin: 20px;
 	height: 100%;
-	width: 100%;
+	width: 30%;
 }
 
 a {
@@ -45,6 +46,20 @@ a {
 .ig-link {
 	margin: 10px 0;
 	font-weight: bold;
+}
+
+.link-button {
+	border: 1px solid var(--lightest-color);
+	box-sizing: border-box;
+	color: var(--darkest-color);
+	padding: 15px;
+	text-align: center;
+	transition: all 0.15s;
+	border-radius: 2px;
+	margin: 20px 8px 0px 8px;
+	display: inline-block;
+	max-width: 250px;
+	width: 45%;
 }
 
 .link-list-item {
